@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Vite plugin to transform `v-if-model` to `v-if` + `v-model` + `:key` at compile time.",
   "main": "dist/index.js",
-  "module": "dist/index.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
@@ -29,8 +29,12 @@
     "v-if-model",
     "compiler"
   ],
-  "author": "Your Name",
+  "author": "XinXiaoIsMe",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XinXiaoIsMe/v-if-model.git"
+  },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.5.14",
     "tsup": "^7.2.0",
