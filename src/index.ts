@@ -1,4 +1,4 @@
-import { Plugin } from 'vite'
+import type { Plugin } from 'vite'
 import { parse as parseSFC } from '@vue/compiler-sfc'
 
 export default function vIfModelPlugin(): Plugin {
